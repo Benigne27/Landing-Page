@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body {
+  font-family: "Roboto", sans-serif;
+}
+#first-part {
+  background-color: #1f2937;
+  color: white;
+}
+.header-links {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 70px;
+  padding-top: 30px;
+}
+.header-links #left ul {
+  display: flex;
+  gap: 50px;
+}
+#right h2 {
+  font-size: 24px;
+  color: #f9faf8;
+}
+#left ul li {
+  list-style: none;
+}
+#left ul li a {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+.first-body {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+.first-body-left {
+  background-image: url(./Images/pexels-mikhail-nilov-7988218.jpg);
+  width: 700px;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 100px;
+}
+#header {
+  font-size: 48px;
+  font-weight: bolder;
+}
+#button {
+  border: none;
+  padding: 7px 20px;
+  border-radius: 5px;
+  background-color: #3882f6;
+  color: white;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.com-team {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.com-team img {
+  height: 200px;
+  width: 200px;
+  border-radius: 20px;
+}
+.com-team1 {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+}
+#second-part {
+  text-align: center;
+  margin: 50px 0;
+}
+#header1 {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  margin-bottom: 50px;
+}
+#third-part {
+  background-color: #e5e7eb;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1f2937;
+}
+.third-part-one h2 {
+  float: right;
+}
+#fourth-part {
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#blue-container {
+  height: 20vh;
+  width: 70%;
+  background-color: #3882f6;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 10px;
+}
+.cont-right {
+  border: 2px solid white;
+  padding: 7px 20px;
+  border-radius: 5px;
+  background-color: #3881f600;
+  color: white;
+  font-weight: bold;
+}
+#fifth-part {
+  height: 10vh;
+  background-color: #1f2937;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+}
